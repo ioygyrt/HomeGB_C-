@@ -7,16 +7,31 @@ int SecondNumb = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("А еще третью");
 int ThriNumb = Convert.ToInt32(Console.ReadLine());
 int max = 0;
-if (FirstNumb < max);
+if (FirstNumb > max)
 {
-    max = FirstNumb;
+max = FirstNumb;
 }
-if (SecondNumb < max); 
+
+else 
 {
-    max = SecondNumb;
+
 }
-if (ThriNumb > max); 
+
+if (SecondNumb > max) 
 {
-    max = ThriNumb;
+max = SecondNumb;
 }
+    
+    else 
+{
+
+}
+if (ThriNumb > max)
+{
+max = ThriNumb;
+}
+else 
+{
+
+}        
 Console.WriteLine ("А вот Ваше максимальное число и оно равно = " + max);
