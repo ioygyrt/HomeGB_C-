@@ -6,7 +6,7 @@ Console.WriteLine ("А теперь вторую");
 int SecondNumb = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine ("А еще третью");
 int ThriNumb = Convert.ToInt32(Console.ReadLine());
-int max = 0;
+int max = 1;
 if (FirstNumb > max)
 {
 max = FirstNumb;

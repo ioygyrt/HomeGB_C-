@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите размер массива");
+﻿Console.Clear();
+Console.WriteLine("Введите размер массива");
 int UserSize = Convert.ToInt32(Console.ReadLine());
 double[] numb = new double[UserSize];
 FillArrayRandomNumbers(numb);
